@@ -1,5 +1,5 @@
 # portfolio
-Portfolio for zoemcdaniel.com
+Live website at [zoemcdaniel.com](http://zoemcdaniel.com/)
 
 
 #### jQuery Libraries
