@@ -34,16 +34,16 @@ a {
 }
 
 .card-subtitle {
-  color: #a5d549;
+  color: #009688;
 }
 .portfolio-top{
   background-color: #9E9E9E;
 }
 .filter {
-  color: #a5d549;
+  color: #009688;
 }
 .filter:focus{
-  background-color: #a5d549;
+  background-color: #009688;
 }
 #portfolio-list .mix:hover > a::before {
   background-color: #9E9E9E;
@@ -53,18 +53,18 @@ a {
 }
 
 .pro-bar-container.color-wisteria {
-  border-color: #a5d549;
+  border-color: #009688;
 }
 
 .pro-bar.color-amethyst {
-  background-color: #a5d549;
+  background-color: #009688;
 }
 .call-to-about i{
-  color: #a5d549;
+  color: #009688;
 }
 
 #experience{
-  background-color: #a5d549;
+  background-color: #009688;
 }
 
 .card-title i {
@@ -106,8 +106,8 @@ input[type="tel"]:focus:not([readonly]),
 input[type="number"]:focus:not([readonly]),
 input[type="search"]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #a5d549;
-  box-shadow: 0 1px 0 0 #a5d549;
+  border-bottom: 1px solid #009688;
+  box-shadow: 0 1px 0 0 #009688;
 }
 .submit-btn{
   color: #009688;  
@@ -117,26 +117,21 @@ textarea.materialize-textarea:focus:not([readonly]) {
   background-color: #009688;
 }
 .overlay-header{
-  background-color: #a5d549;
+  background-color: #009688;
 }
 
 .share-area a:hover,
 .share-area a:focus{
-  color: #a5d549;
+  color: #a5d009688549;
 }
 .card .card-action a {
-  color: #a5d549;  
+  color: #009688;
 }
 
 .side-nav li:hover,
 .side-nav li.active {
-  background-color: #a5d549; 
+  background-color: #009688;
 }
 .progress .indeterminate {
-  background-color: #a5d549;
+  background-color: #009688;
 }
-
-/*=======================================
-Template Design By MarkUps.
-Author URI : http://www.markups.io/
-========================================*/
