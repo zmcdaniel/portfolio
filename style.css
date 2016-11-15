@@ -68,7 +68,7 @@ nav .brand-logo img {
   left:0;
   right:0;
   bottom:0;
-  background-color:#fff; /* change if the mask should have another color then white */
+  background-color:#dbdbdb; /* change if the mask should have another color then white */
   z-index:99999; /* makes sure it stays on top */ 
 }
 
@@ -131,7 +131,7 @@ nav .brand-logo img {
 
 
 .call-to-about {
-  bottom: -298px;  
+  bottom: -350px;
   left: 47.5%;
   position: absolute;
 }
@@ -223,7 +223,7 @@ nav .brand-logo img {
 
 
 .resume-btn{
-  margin-top: 160px;
+  margin-top: 20px;
   margin-left: 50px;
 }
 

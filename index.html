@@ -76,11 +76,11 @@
                         <div class="col s12">
                             <div class="home-inner">
 
-                                <h1 class="home-title">I'm <span>Zoe McDaniel</span></h1>
-                                <p>Let's create something together</p>
-                                <a class="hire-me-btn btn waves-effect waves-light btn-large" href="#footer">say hello<i
-                                        class="mdi-content-send left"></i>
-                                </a>
+                                <h1 class="home-title"><span>Zoe McDaniel</span></h1>
+                                <p>Web Developer</p>
+                                <!--<a class="hire-me-btn btn waves-effect waves-light btn-large" href="#footer">say hello<i-->
+                                        <!--class="mdi-content-send left"></i>-->
+                                <!--</a>-->
                                 <!-- This scrolls down to the about section -->
                                 <button class="btn btn-floating waves-effect waves-light btn-large white call-to-about">
                                     <i class="material-icons">play_for_work</i></button>
@@ -132,6 +132,8 @@
                                         <div class="resume-download col s12 m12 l6">
                                             <a href="download/ZoeMcDanielResume.pdf" download class="waves-effect waves-light btn-large resume-btn"><i
                                                     class="mdi-content-archive left"></i> Download Resume .pdf</a>
+                                            <button class="waves-effect waves-light btn-large resume-btn disabled"><i
+                                                    class="mdi-content-archive left"></i> Download Resume .txt</button>
                                         </div>
                                     </div>
                                 </div>
@@ -166,14 +168,26 @@
                                     <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
                                     <img src="img/gemjam-large.png" alt="Gem Jam" class="portfolio-detail-pic">
                                     <h2>Gem Jam </h2>
-                                    <p>A browser based game built using the Phaser.io framework and HTML5. Exploring a
-                                        2D platformer world, the player must locate gems while navigating dangerous
-                                        pitfalls and traps. The game features a timer as well as a score to compare
-                                        previous attempts. I used the application Tiled to help me in generation a large
-                                        2D side scrolling world using an open source, small-sized spritesheet to allow
+                                    <p>
+                                        I love the first time of exploring an open game world. From snowy mountains to
+                                        arid deserts, there's a lonely enjoyment to be had in every new experience. I
+                                        wanted to use Javascript combined with old-school pixel graphics to create a miniaturized
+                                        version of this feeling.
+                                    </p>
+                                    <p>
+                                        gemJam is a browser based game built using the Phaser.io framework and HTML5. Exploring a
+                                        2D platform-based world, the player must locate gems while navigating dangerous
+                                        pitfalls and traps. The only way to win is to explore. To add some sense of competition,
+                                        the game features a timer as well as a score counter to compare previous attempts.
+                                    </p>
+                                    <p>
+                                        I used the application Tiled to help me in generating a large JSON-based
+                                        side scrolling worldmap using an open source, small-sized spritesheet to allow
                                         for quick loading times. The game uses states to keep the code organized and
                                         easy to use. All the assets are preloaded for quickness once the actual game has
-                                        begun.</p>
+                                        begun, however due to the size of the map it does get the occassional glitch of
+                                        having the player sprite stuck in the middle of a block.
+                                    </p>
                                     <p>
                                         <i class="devicons devicons-javascript"></i>
                                         <i class="devicons devicons-jquery"></i>
@@ -191,23 +205,35 @@
                             <!-- Mind Dump -->
                             <div class="mix">
                                 <a href="#" class="portfolio-thumbnill">
-                                    <img src="http://placehold.it/350x150" alt="img">
+                                    <img src="img/minddump.png" alt="img">
                                     <i class="material-icons view-icon">pageview</i>
                                 </a>
                                 <div class="portfolio-detail">
                                     <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-                                    <img src="http://placehold.it/350x150" alt="img">
+                                    <img src="img/minddump.png" alt="img">
                                     <h2>Mind Dump</h2>
-                                    <p>Input an email, statement, text message, or simply stream-of-consciousness
+                                    <p>
+                                        Input an email, statement, text message, or simply stream-of-consciousness
                                         writing. Even though this is writing online, it's competely private. There is no
                                         right or wrong way to do it. Don't edit, don't overthink, just let your brain
-                                        dump.</p>
-
-                                    <p>Mind Dump breaks your text down into emotion, social, and language categories to
+                                        dump.
+                                    </p>
+                                    <p>
+                                        Mind Dump breaks your text down into emotion, social, and language categories to
                                         help you gain more insight. It gives you an analysis of the overall tone of the
                                         content.It utilizes IBM's Watson platform, leveraging its tone analysis engine
                                         to provide data-driven insight into one's inner thoughts to better communicate,
-                                        gain perception, live a more mindful day.</p>
+                                        gain perception, live a more mindful day.
+                                    </p>
+                                    <p>
+                                        <i class="devicons devicons-javascript"></i>
+                                        <i class="devicons devicons-bootstrap"></i>
+                                        <i class="devicons devicons-css3"></i>
+                                        <i class="devicons devicons-html5"></i>
+                                        <i class="devicons devicons-nodejs"></i>
+                                        <i class="devicons devicons-npm"></i>
+                                        <i class="devicons devicons-heroku"></i>
+                                    </p>
                                     <a href="https://tonedownforwhat.herokuapp.com/" class="view-project-btn">Live
                                         Demo</a>
                                     <a href="https://github.com/zmcdaniel/mind-dump" class="view-project-btn">Source
@@ -226,19 +252,42 @@
                                     <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
                                     <img src="img/acciobike-large.png" alt="Accio Bike" class="portfolio-detail-pic">
                                     <h2>Accio Bike </h2>
-                                    <p> Seattle has one of the highest bike theft rates in the nation with over 1,550
+                                    <p>
+                                        Seattle has one of the highest bike theft rates in the nation with over 1,550
                                         reported stolen last year alone. Many end up being sold or bartered as currency
                                         on the street. For a savvy thief, stealing a bike is easy. For a victim, getting
-                                        a bike back is hard.</p>
-                                    <p>Accio Bike is a registry for your bicycle to proactively prevent and recover thefts.
+                                        a bike back is hard.
+                                    </p>
+                                    <p>
+                                        Accio Bike is a registry for your bicycle to proactively prevent and recover thefts.
                                         Without creating an account, a user can search the database of missing bikes for
                                         information like a bicycle's unique serial number, brand, model, color, size, or
                                         the zip code from which it went missing. If your bike has gone missing, create a
                                         free account and fill in your bike's information. The app data scrapes common sites
-                                        to sell stolen goods and matches them to your missing bike's profile.</p>
-                                    <p>This was a group collaboration using Ruby on Rails for the web framework, PostgreSQL
-                                        for the database, Nokogiri gem for data scraping, Cloudinary for image uploads,
-                                        Rspec for testing, and Git for version control.</p>
+                                        to sell stolen goods and matches them to your missing bike's profile.
+                                    </p>
+                                    <p>
+                                        Completed in a one-week sprint, Accio Bike was a group collaboration using Ruby on Rails
+                                        for the web framework, PostgreSQL for the database, and Git for version control. I
+                                        was acting project manager and front-end developer. Whiteboarding, wireframes,
+                                        ERD diagrams, and clearly outlining our CRUD functionality kept the project organized
+                                        and merge conflicts minimal, as everyone had a clearly delegated job. We separated
+                                        components into self-contained partials which allowed group members to tackle
+                                        features displayed on the same page. Keeping organized with a clear vision of our
+                                        minimum viable product allowed us to quickly and efficiently dial in our required
+                                        features and move on to the fun stuff. We had time to try our hands at Cloudinary
+                                        image uploads, interactive jQuery forms, Nokogiri data scraping, SVG/CSS animations,
+                                        and a hand-coded search function.
+                                    </p>
+                                    <p>
+                                        <i class="devicons devicons-ruby"></i>
+                                        <i class="devicons devicons-rubyonrails"></i>
+                                        <i class="devicons devicons-css3"></i>
+                                        <i class="devicons devicons-html5"></i>
+                                        <i class="devicons devicons-nodejs"></i>
+                                        <i class="devicons devicons-heroku"></i>
+                                        <i class="devicons devicons-coffeescript"></i>
+                                    </p>
                                     <a href="http://acciobiketest.herokuapp.com" class="view-project-btn">Live Demo</a>
                                     <a href="https://github.com/zmcdaniel/acciobike2" class="view-project-btn">Source
                                         Code</a>
@@ -259,10 +308,19 @@
                                         <img src="img/757-hombres-wave.png" alt="Life is Hood" class="col s4" style="min-width: 200px;">
                                     </div>
                                     <h2>757 Hombres Surf Club</h2>
-                                    <p>A surf club based out of the Hampton Roads area of Virginia contacted me to make
-                                        several designs for t-shirts and decals. With a snapshot of local street art for
-                                        inpiration, I set out to mockup a design that reflected the vibes of the 757
-                                        area code.</p>
+                                    <p>
+                                        757 is the area code for the Hampton Roads/Norfolk/Virginia Beach area of eastern
+                                        Virginia. A unique urban area with history dating back to long before the Founding
+                                        Fathers, life often finds itself centered on the ocean. One of the world's largest
+                                        naval bases is located here as well as many shipyards. A local surf club, the 757
+                                        Hombres, wanted to reflect these urban beachtown vibes in their t-shirt and decal
+                                        logos. In fact, the original design inspiration was a piece of street art found on
+                                        a telephone pole in the Norfolk Arts district.
+                                    </p>
+                                    <p>
+                                        <i class="devicons-photoshop"></i>
+                                        <i class="devicons devicons-illustrator"></i>
+                                    </p>
                                 </div>
 
                             </div>
@@ -270,18 +328,18 @@
                             <!-- True North -->
                             <div class="mix">
                                 <a href="#" class="portfolio-thumbnill">
-                                    <img src="http://placehold.it/350x150" alt="True North">
+                                    <img src="img/truenorth.png" alt="True North">
                                     <i class="material-icons view-icon">pageview</i>
                                 </a>
                                 <div class="portfolio-detail">
                                     <a href="#" class="modal-close-btn"><span class="fa fa-times"></span></a>
-                                    <img src="http://placehold.it/350x150" alt="True North" class="portfolio-detail-pic">
+                                    <img src="img/truenorth.png" alt="True North" class="portfolio-detail-pic">
                                     <h2>True North Construction </h2>
                                     <p> A portfolio and website for a general contracting construction company based out of
                                     Virginia. The client requested a simple website that reflected heritage and tradition, as the company
                                     had deep roots in the area.</p>
-                                    <a href="#" class="view-project-btn">Live Demo</a>
-                                    <a href="https://github.com/zmcdaniel/truenorthconstruction" class="view-project-btn">Source
+                                    <a href="https://zmcdaniel.github.io/tnconstruction/" class="view-project-btn">Live Demo</a>
+                                    <a href="https://github.com/zmcdaniel/tnconstruction" class="view-project-btn">Source
                                         Code</a>
                                 </div>
                             </div>
@@ -357,8 +415,8 @@
                                     <div class="col s12 m4 l4">
                                         <div class="single-facts waves-effect waves-block waves-light">
                                             <i class="material-icons">create</i>
-                                            <span class="counter">307</span>
-                                            <span class="counter-text">Github Commits</span>
+                                            <span class="counter">343</span>
+                                            <span class="counter-text">Github commits as of this morning</span>
                                         </div>
                                     </div>
                                     <div class="col s12 m4 l4">
@@ -372,7 +430,7 @@
                                         <div class="single-facts waves-effect waves-block waves-light">
                                             <i class="material-icons">apps</i>
                                             <span class="counter">5</span>
-                                            <span class="counter-text">Years of experience</span>
+                                            <span class="counter-text">Years of experience and counting</span>
                                         </div>
                                     </div>
                                 </div>
@@ -385,62 +443,62 @@
 
         <!-- Start Footer -->
         <footer id="footer" role="contentinfo">
-            <!-- Start Footer Top -->
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="footer-top-inner">
-                                <h2 class="title">Contact</h2>
-                                <p>Do you have an idea that you want to see get made? Interested in dropping me a line
-                                    to collaborate on your next project? Or do you just want to hear a bad joke? All
-                                    things aside, I'd love to hear from you.</p>
-                                <div class="contact">
-                                    <!-- TODO: ADD FUNCTIONALITY TO CONTACT FORM-->
-                                    <div class="row">
-                                        <div class="col s12 m12 l12">
-                                            <div class="contact-form">
+            <!--&lt;!&ndash; Start Footer Top &ndash;&gt;-->
+            <!--<div class="footer-top">-->
+                <!--<div class="container">-->
+                    <!--<div class="row">-->
+                        <!--<div class="col s12">-->
+                            <!--<div class="footer-top-inner">-->
+                                <!--<h2 class="title">Contact</h2>-->
+                                <!--<p>Do you have an idea that you want to see get made? Interested in dropping me a line-->
+                                    <!--to collaborate on your next project? Or do you just want to hear a bad joke? All-->
+                                    <!--things aside, I'd love to hear from you.</p>-->
+                                <!--<div class="contact">-->
+                                    <!--&lt;!&ndash; TODO: ADD FUNCTIONALITY TO CONTACT FORM&ndash;&gt;-->
+                                    <!--<div class="row">-->
+                                        <!--<div class="col s12 m12 l12">-->
+                                            <!--<div class="contact-form">-->
 
-                                                <form role="form" id="contactForm">
+                                                <!--<form role="form" id="contactForm">-->
 
-                                                    <div class="input-field">
-                                                        <input type="text" class="input-box" name="contactName"
-                                                               id="name" required>
-                                                        <label class="input-label" for="name">Name</label>
-                                                    </div>
+                                                    <!--<div class="input-field">-->
+                                                        <!--<input type="text" class="input-box" name="contactName"-->
+                                                               <!--id="name" required>-->
+                                                        <!--<label class="input-label" for="name">Name</label>-->
+                                                    <!--</div>-->
 
-                                                    <div class="input-field">
-                                                        <input type="email" class="input-box" name="contactEmail"
-                                                               id="email" required>
-                                                        <label class="input-label" for="email">Email</label>
-                                                    </div>
+                                                    <!--<div class="input-field">-->
+                                                        <!--<input type="email" class="input-box" name="contactEmail"-->
+                                                               <!--id="email" required>-->
+                                                        <!--<label class="input-label" for="email">Email</label>-->
+                                                    <!--</div>-->
 
-                                                    <div class="input-field textarea-input">
-                                                        <textarea class="materialize-textarea" name="contactMessage"
-                                                                  id="message" required></textarea>
-                                                        <label class="input-label" for="message">Message</label>
-                                                    </div>
+                                                    <!--<div class="input-field textarea-input">-->
+                                                        <!--<textarea class="materialize-textarea" name="contactMessage"-->
+                                                                  <!--id="message" required></textarea>-->
+                                                        <!--<label class="input-label" for="message">Message</label>-->
+                                                    <!--</div>-->
 
-                                                    <button class="waves-effect btn-flat disabled"
-                                                            type="submit" id="form-submit">send message
-                                                    </button>
-                                                    <!--<button class="left waves-effect btn-flat brand-text submit-btn disabled"-->
+                                                    <!--<button class="waves-effect btn-flat disabled"-->
                                                             <!--type="submit" id="form-submit">send message-->
                                                     <!--</button>-->
+                                                    <!--&lt;!&ndash;<button class="left waves-effect btn-flat brand-text submit-btn disabled"&ndash;&gt;-->
+                                                            <!--&lt;!&ndash;type="submit" id="form-submit">send message&ndash;&gt;-->
+                                                    <!--&lt;!&ndash;</button>&ndash;&gt;-->
 
-                                                    <!--<div id="msgSubmit" class="h3 hidden">Message Submitted!</div>-->
+                                                    <!--&lt;!&ndash;<div id="msgSubmit" class="h3 hidden">Message Submitted!</div>&ndash;&gt;-->
 
-                                                </form>
+                                                <!--</form>-->
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
             <!-- Start Footer Bottom -->
             <div class="footer-bottom">
                 <div class="container">
