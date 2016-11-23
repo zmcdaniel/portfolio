@@ -68,7 +68,7 @@ nav .brand-logo img {
   left:0;
   right:0;
   bottom:0;
-  background-color:#dbdbdb; /* change if the mask should have another color then white */
+  background-color:#dbdbdb;
   z-index:99999; /* makes sure it stays on top */ 
 }
 
