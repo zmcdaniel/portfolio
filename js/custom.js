@@ -1,5 +1,10 @@
 jQuery(function($){
 
+	$('.view-icon').on('click', function(event) {
+		console.log('view icon clicked');
+		event.preventDefault();
+	});
+
 
 	/* ----------------------------------------------------------- */
 	/*  MOBILE MENU
@@ -15,7 +20,7 @@ jQuery(function($){
 	
 	// WHEN CLICK PLAY BUTTON 
 	
-    jQuery('.portfolio-thumbnill').on('click', function(event) {
+    jQuery('.portfolio-thumbnail').on('click', function(event) {
       event.preventDefault();
       $('#portfolio-popup').addClass("portfolio-popup-show");
       $('#portfolio-popup').animate({
@@ -119,17 +124,17 @@ jQuery(function($){
 	         .parent().removeClass("active")
 	         .end().filter("[href=\\#"+id+"]").parent().addClass("active");
 	   }           
-	})
+	});
     
 	/* ----------------------------------------------------------- */
 	/*  PRELOADER
 	/* ----------------------------------------------------------- */ 
 
-	jQuery(window).load(function() { // makes sure the whole site is loaded
-      $('.progress').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
-      $('body').delay(100).css({'overflow':'visible'});
-    })
+    // jQuery(window).load(function() { // makes sure the whole site is loaded
+    //   $('.progress').fadeOut(); // will first fade out the loading animation
+    //   $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    //   $('body').delay(100).css({'overflow':'visible'});
+    // })
 	  
 	/* ----------------------------------------------------------- */
 	/* CALL TO ABOUT

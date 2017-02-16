@@ -1,0 +1,117 @@
+# Zoe McDaniel
+206.488.7852 // <zmcdaniel@gmail.com> // Seattle, WA // [Portfolio](www.zoemcdaniel.com)  // [GitHub](https://github.com/zmcdaniel)
+
+## Skills
+
+### Languages
++ PHP7
++ Javascript (ECMAScript 2015)
++ HTML/HTML5
++ CSS
++ SASS
++ jQuery
++ Node.js
++ AngularJS
++ Python
++ Java
++ Phaser.js
++ Meteor.js
+
+### Databases
++ MySQL
++ SQL
++ PostgreSQL
++ Sequelize
++ MongoDB
++ Mongoose
++ Firebase
+
+### Software
++ PHP Storm
++ Adobe Photoshop
++ Adobe Illustrator
++ MS Office
++ Apple iWork
++ Sketch
++ JIRA
++ VMware
++ Eclipse
++ SequelPro
++ Postman
+
+### Designs / Platforms
++ JSON
++ AJAX
++ GitHub / Git
++ OOP
++ MVC
++ RESTful routes
++ Markdown
++ Wordpress
++ Vagrant
++ VirtualBox
++ Salesforce
++ Heroku
++ Squarespace
+
+## TECHNICAL EXPERIENCE
+
+**Consultant, Developer**, _Independent Contracting_.
+Seattle, WA; Oct 2016 - Present
++ Developed SEO-friendly web app for athlete, recruiter, and coach profiles with AWS video distribution and secure e-commerce portal
++ Designed web presence using Photoshop, Javascript, HTML5, CSS3/SCSS, PHP5 
++ Maintained e-commerce system and assisted in migration to Salesforce/Chargent/Paypal system
++ Created complex SQL queries for data intelligence for 35,000+ user base
++ Secured applications against SQL injection and XSS attempts
++ Utilized Vagrant box software to create LAMP environments for developers to leverage
++ Operated under Agile methodologies using JIRA ticketing and continuous integration
++ Performed full overhaul on web presence following company acquisition
++ Adapted, organized, and modernized legacy codebase
+
+**Full stack developer**, _General Assembly_.
+Seattle, WA; Jul 2016 - Oct 2016
++ Delivered 5 design/development sprint projects in Javascript, Ruby on Rails, and MEAN stack
++ Engaged in 90 hr/wk immersive program focusing on full stack modern languages, frameworks, and technology
++ Collaborated as a Project Manager in Agile environment, securing apps with Bcrypt and JWT
++ Planned applications from the ground up, including Omnigraffle wireframes, ERD diagrams, MVC organization, RESTful API routes, and DRY coding concepts
+
+**Front of house**, _Various restaurants_.
+Seattle, WA; Mar 2013 - Jul 2016
+    + Established web/social media presence, designing promotion campaigns and newsletter with over 20% read-through rate
++ Debugged POS SQL issues and programmed system for efficient entry
++ Promoted strong client rapport and consistency produced daily sales in excess of $4000
+
+**Web developer**, _True North Construction LLC_.
+Virginia Beach, VA
+May 2013 - Jul 2014
++ Created portfolio website and social media using HTML, CSS, Bootstrap, jQuery, and PHP
++ Migrated to Squarespace, teaching company owner to manage and update
+
+## PROJECTS
+
+##### Gem Jam
++ HTML/Javascript browser 2D platformer browser game.
+
+##### Mind Dump
++ Node, Express, Javascript with IBM Watson API journal with textual analysis of emotion.
+
+##### Accio Bike 
++ Ruby on Rails bicycle theft prevention/recovery app with Nokogiri web crawler and Materialize design.
+
+##### Wordly
++ MEAN stack hackathon app to analyze job applications and generate wordcloud of keywords.
+
+##### Birbchat
++ Firebase and Javascript chat application with Google Authentication
+
+##### SkillShow
++ AWS web app built in LAMP stack featuring e-commerce and athlete, coach, and recruiter profile pages
+
+## EDUCATION
+
+#### Web Development Immersive, _2016_
+**General Assembly, Seattle WA**
+
+#### Computer Science, _2011-2013_
+**University of San Francisco, San Francisco CA**
+
